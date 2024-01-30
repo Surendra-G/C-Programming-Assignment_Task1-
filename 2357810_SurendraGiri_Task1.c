@@ -72,8 +72,8 @@ int main(){
     
     printf("---------------------------------------------------------------------------------------------------------------------\n");
     //Now calculating the linear regression coefficents (A and B)
-	A = ((count * sum_of_XY) - (sum_of_X * sum_of_Y)) / ((count * sum_of_X_square )- (sum_of_X * sum_of_X));
-	B = ((sum_of_Y * sum_of_X_square) - (sum_of_X * sum_of_XY)) / ((count * sum_of_X_square )- (sum_of_X * sum_of_X));
+	B = ((count * sum_of_XY) - (sum_of_X * sum_of_Y)) / ((count * sum_of_X_square )- (sum_of_X * sum_of_X));
+	A = ((sum_of_Y * sum_of_X_square) - (sum_of_X * sum_of_XY)) / ((count * sum_of_X_square )- (sum_of_X * sum_of_X));
 	
 	//displaying A & B
 	printf("A: %.2lf\n", A);
